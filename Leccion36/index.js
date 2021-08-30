@@ -1,6 +1,6 @@
-let nombre = ["gaspar","lisha","patito"];
-console.log(nombre);
-
-nombre.push("X");
-console.log(nombre);
-console.log(nombre.indexOf("lisha"));
+let rex = ["rex","the dinasour", "carnivore", 5];
+console.log(rex);
+rex.pop();
+rex.shift();
+rex.unshift("patito");
+console.log(rex);
